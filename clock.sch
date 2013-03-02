@@ -16029,200 +16029,6 @@ Grid 5.08 mm&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-kycon">
-<description>&lt;b&gt;Connector from KYCON, Inc&lt;/b&gt;&lt;p&gt;
-1810 Little Orchard Street,&lt;br&gt;
-San Jose,&lt;br&gt;
-CA 95125 (408)494-0330&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/autor&gt;</description>
-<packages>
-<package name="KLDVX-0202-A">
-<description>&lt;b&gt;Power Jack, Vertical, PCB Mount, 2.0 mm Center Pin&lt;/b&gt;&lt;p&gt;
-Source: KLDVX-0202x.pdf</description>
-<wire x1="-5.3" y1="1.75" x2="-4.5" y2="1.75" width="0" layer="46"/>
-<wire x1="-4.5" y1="1.75" x2="-4.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="-4.5" y1="-1.75" x2="-5.3" y2="-1.75" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.75" x2="-5.3" y2="1.75" width="0" layer="46"/>
-<wire x1="-0.1" y1="-2.4" x2="2.9" y2="-2.4" width="0" layer="46"/>
-<wire x1="2.9" y1="-2.4" x2="2.9" y2="-3.2" width="0" layer="46"/>
-<wire x1="2.9" y1="-3.2" x2="-0.1" y2="-3.2" width="0" layer="46"/>
-<wire x1="-0.1" y1="-3.2" x2="-0.1" y2="-2.4" width="0" layer="46"/>
-<wire x1="-2.9" y1="-5.2" x2="0.1" y2="-5.2" width="0" layer="46"/>
-<wire x1="0.1" y1="-5.2" x2="0.1" y2="-6" width="0" layer="46"/>
-<wire x1="0.1" y1="-6" x2="-2.9" y2="-6" width="0" layer="46"/>
-<wire x1="-2.9" y1="-6" x2="-2.9" y2="-5.2" width="0" layer="46"/>
-<wire x1="4.4" y1="4.5" x2="4.4" y2="-6.3" width="0.2032" layer="21"/>
-<wire x1="4.4" y1="-6.3" x2="-4.4" y2="-6.3" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-6.3" x2="-4.4" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="4.4" y1="4.5" x2="-4.4" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="2.59" x2="-4.4" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-6.3" x2="-4.4" y2="-2.485" width="0.2032" layer="21"/>
-<wire x1="-0.875" y1="-2.95" x2="2.425" y2="-1.875" width="0.2032" layer="21" curve="-291.351239"/>
-<circle x="0" y="0" radius="3.0751" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.0003" width="0" layer="21"/>
-<pad name="1" x="-4.9" y="0.8" drill="0.8" diameter="1.4" shape="long" rot="R270"/>
-<pad name="2" x="-2.2" y="-5.6" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="3" x="0.6" y="-2.8" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="1@1" x="-4.9" y="-0.8" drill="0.8" diameter="1.4" shape="long" rot="R270"/>
-<pad name="2@1" x="-0.6" y="-5.6" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="3@1" x="2.2" y="-2.8" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<text x="-4.445" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="KLDVX-0202-B">
-<description>&lt;b&gt;Power Jack, Vertical, PCB Mount, 2.5 mm Center Pin&lt;/b&gt;&lt;p&gt;
-Source: KLDVX-0202x.pdf</description>
-<wire x1="-5.3" y1="1.75" x2="-4.5" y2="1.75" width="0" layer="46"/>
-<wire x1="-4.5" y1="1.75" x2="-4.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="-4.5" y1="-1.75" x2="-5.3" y2="-1.75" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.75" x2="-5.3" y2="1.75" width="0" layer="46"/>
-<wire x1="-0.1" y1="-2.4" x2="2.9" y2="-2.4" width="0" layer="46"/>
-<wire x1="2.9" y1="-2.4" x2="2.9" y2="-3.2" width="0" layer="46"/>
-<wire x1="2.9" y1="-3.2" x2="-0.1" y2="-3.2" width="0" layer="46"/>
-<wire x1="-0.1" y1="-3.2" x2="-0.1" y2="-2.4" width="0" layer="46"/>
-<wire x1="-2.9" y1="-5.2" x2="0.1" y2="-5.2" width="0" layer="46"/>
-<wire x1="0.1" y1="-5.2" x2="0.1" y2="-6" width="0" layer="46"/>
-<wire x1="0.1" y1="-6" x2="-2.9" y2="-6" width="0" layer="46"/>
-<wire x1="-2.9" y1="-6" x2="-2.9" y2="-5.2" width="0" layer="46"/>
-<wire x1="4.4" y1="4.5" x2="4.4" y2="-6.3" width="0.2032" layer="21"/>
-<wire x1="4.4" y1="-6.3" x2="-4.4" y2="-6.3" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-6.3" x2="-4.4" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="4.4" y1="4.5" x2="-4.4" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="2.59" x2="-4.4" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-6.3" x2="-4.4" y2="-2.485" width="0.2032" layer="21"/>
-<wire x1="-0.875" y1="-2.95" x2="2.425" y2="-1.875" width="0.2032" layer="21" curve="-291.351239"/>
-<circle x="0" y="0" radius="3.0751" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.2502" width="0" layer="21"/>
-<pad name="1" x="-4.9" y="0.8" drill="0.8" diameter="1.4" shape="long" rot="R270"/>
-<pad name="2" x="-2.2" y="-5.6" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="3" x="0.6" y="-2.8" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="1@1" x="-4.9" y="-0.8" drill="0.8" diameter="1.4" shape="long" rot="R270"/>
-<pad name="2@1" x="-0.6" y="-5.6" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="3@1" x="2.2" y="-2.8" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<text x="-4.445" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="KLDVX-0202-C">
-<description>&lt;b&gt;Power Jack, Vertical, PCB Mount, 3.0 mm Center Pin&lt;/b&gt;&lt;p&gt;
-Source: KLDVX-0202x.pdf</description>
-<wire x1="-5.3" y1="1.75" x2="-4.5" y2="1.75" width="0" layer="46"/>
-<wire x1="-4.5" y1="1.75" x2="-4.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="-4.5" y1="-1.75" x2="-5.3" y2="-1.75" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.75" x2="-5.3" y2="1.75" width="0" layer="46"/>
-<wire x1="-0.1" y1="-2.4" x2="2.9" y2="-2.4" width="0" layer="46"/>
-<wire x1="2.9" y1="-2.4" x2="2.9" y2="-3.2" width="0" layer="46"/>
-<wire x1="2.9" y1="-3.2" x2="-0.1" y2="-3.2" width="0" layer="46"/>
-<wire x1="-0.1" y1="-3.2" x2="-0.1" y2="-2.4" width="0" layer="46"/>
-<wire x1="-2.9" y1="-5.2" x2="0.1" y2="-5.2" width="0" layer="46"/>
-<wire x1="0.1" y1="-5.2" x2="0.1" y2="-6" width="0" layer="46"/>
-<wire x1="0.1" y1="-6" x2="-2.9" y2="-6" width="0" layer="46"/>
-<wire x1="-2.9" y1="-6" x2="-2.9" y2="-5.2" width="0" layer="46"/>
-<wire x1="4.4" y1="4.5" x2="4.4" y2="-6.3" width="0.2032" layer="21"/>
-<wire x1="4.4" y1="-6.3" x2="-4.4" y2="-6.3" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-6.3" x2="-4.4" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="4.4" y1="4.5" x2="-4.4" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="2.59" x2="-4.4" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="-4.4" y1="-6.3" x2="-4.4" y2="-2.485" width="0.2032" layer="21"/>
-<wire x1="-0.875" y1="-2.95" x2="2.425" y2="-1.875" width="0.2032" layer="21" curve="-291.351239"/>
-<circle x="0" y="0" radius="3.0751" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.5" width="0" layer="21"/>
-<pad name="1" x="-4.9" y="0.8" drill="0.8" diameter="1.4" shape="long" rot="R270"/>
-<pad name="2" x="-2.2" y="-5.6" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="3" x="0.6" y="-2.8" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="1@1" x="-4.9" y="-0.8" drill="0.8" diameter="1.4" shape="long" rot="R270"/>
-<pad name="2@1" x="-0.6" y="-5.6" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<pad name="3@1" x="2.2" y="-2.8" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
-<text x="-4.445" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="POWER-JACK_2-SWITCH">
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="1.524" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-0.762" x2="2.794" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-2.286" x2="-0.508" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.524" x2="-1.016" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.524" x2="-0.762" y2="-2.286" width="0.254" layer="94"/>
-<text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.588" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.54" y1="2.032" x2="2.794" y2="3.048" layer="94"/>
-<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="1@1" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="3@1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2@1" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="KLDVX-0202-">
-<description>&lt;b&gt;Power Jack, Vertical, PCB Mount, 2.0 mm, 2.5 mm, 3.0 mm Center Pin&lt;/b&gt;&lt;p&gt;
-Source: KLDVX-0202x.pdf</description>
-<gates>
-<gate name="G$1" symbol="POWER-JACK_2-SWITCH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="A" package="KLDVX-0202-A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="1@1" pad="1@1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="2@1" pad="2@1"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="3@1" pad="3@1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="B" package="KLDVX-0202-B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="1@1" pad="1@1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="2@1" pad="2@1"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="3@1" pad="3@1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C" package="KLDVX-0202-C">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="1@1" pad="1@1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="2@1" pad="2@1"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="3@1" pad="3@1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="transistor-npn">
 <description>&lt;b&gt;NPN Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -16713,6 +16519,99 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-jack">
+<description>&lt;b&gt;Jacks&lt;/b&gt;&lt;p&gt;
+Power Connectors&lt;br&gt;
+Phone Connectors&lt;br&gt;
+Cinch Connectors&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DCJ0202">
+<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
+Source: DCJ0202.pdf</description>
+<wire x1="1.65" y1="2.6" x2="-1.65" y2="2.6" width="0" layer="46"/>
+<wire x1="-1.65" y1="2.6" x2="-1.65" y2="3.6" width="0" layer="46"/>
+<wire x1="-1.65" y1="3.6" x2="1.65" y2="3.6" width="0" layer="46"/>
+<wire x1="1.65" y1="3.6" x2="1.65" y2="2.6" width="0" layer="46"/>
+<wire x1="5.3" y1="1.4" x2="4.3" y2="1.4" width="0" layer="46"/>
+<wire x1="4.3" y1="1.4" x2="4.3" y2="-1.4" width="0" layer="46"/>
+<wire x1="4.3" y1="-1.4" x2="5.3" y2="-1.4" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.4" x2="5.3" y2="1.4" width="0" layer="46"/>
+<wire x1="1.4" y1="-3.5" x2="-1.4" y2="-3.5" width="0" layer="46"/>
+<wire x1="-1.4" y1="-3.5" x2="-1.4" y2="-2.5" width="0" layer="46"/>
+<wire x1="-1.4" y1="-2.5" x2="1.4" y2="-2.5" width="0" layer="46"/>
+<wire x1="1.4" y1="-2.5" x2="1.4" y2="-3.5" width="0" layer="46"/>
+<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="4.3" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-2.7" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="3.9" x2="2.7" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="-0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="0.9" y1="-9" x2="0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="51" curve="166.57811"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.45" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="2.3" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="3.1" drill="1" diameter="2" shape="long" rot="R180"/>
+<pad name="3" x="0" y="-3" drill="1" diameter="2" shape="long" rot="R180"/>
+<pad name="2" x="4.8" y="0" drill="1" diameter="2" shape="long" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DC-JACK-SWITCH">
+<wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.016" x2="-0.762" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.302" y1="-2.54" x2="-1.778" y2="1.27" layer="94"/>
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-2.54"/>
+<vertex x="2.032" y="-1.27"/>
+<vertex x="3.048" y="-1.27"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DCJ0202" prefix="J">
+<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
+Source: DCJ0202.pdf</description>
+<gates>
+<gate name="G$1" symbol="DC-JACK-SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCJ0202">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16747,7 +16646,7 @@ W = angled&lt;p&gt;
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
 <part name="SV1" library="con-harting-ml" deviceset="ML10" device=""/>
 <part name="POWER_CLAMP" library="con-wago-508" deviceset="W237-02P" device=""/>
-<part name="POWER_JACK" library="con-kycon" deviceset="KLDVX-0202-" device="B"/>
+<part name="POWER_JACK" library="con-jack" deviceset="DCJ0202" device=""/>
 <part name="Q1" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="Q2" library="transistor-npn" deviceset="BC547*" device=""/>
 <part name="LED_VCC" library="con-wago-508" deviceset="W237-12P" device=""/>
@@ -16802,7 +16701,7 @@ W = angled&lt;p&gt;
 <instance part="SV1" gate="G$1" x="0" y="101.6"/>
 <instance part="POWER_CLAMP" gate="-1" x="-58.42" y="134.62"/>
 <instance part="POWER_CLAMP" gate="-2" x="-58.42" y="129.54"/>
-<instance part="POWER_JACK" gate="G$1" x="-60.96" y="144.78" rot="MR0"/>
+<instance part="POWER_JACK" gate="G$1" x="-60.96" y="144.78"/>
 <instance part="Q1" gate="G$1" x="-38.1" y="53.34"/>
 <instance part="Q2" gate="G$1" x="-27.94" y="40.64" rot="R180"/>
 <instance part="LED_VCC" gate="-1" x="114.3" y="91.44" rot="MR0"/>
@@ -16867,12 +16766,9 @@ W = angled&lt;p&gt;
 <wire x1="-53.34" y1="129.54" x2="-45.72" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="129.54" x2="-45.72" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="POWER_JACK" gate="G$1" pin="2"/>
-<wire x1="-45.72" y1="142.24" x2="-53.34" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="142.24" x2="-45.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="144.78" x2="-53.34" y2="144.78" width="0.1524" layer="91"/>
 <junction x="-45.72" y="129.54"/>
-<pinref part="POWER_JACK" gate="G$1" pin="3"/>
-<wire x1="-53.34" y1="144.78" x2="-45.72" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="144.78" x2="-45.72" y2="142.24" width="0.1524" layer="91"/>
-<junction x="-45.72" y="142.24"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-33.02" y1="134.62" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="129.54" x2="-10.16" y2="129.54" width="0.1524" layer="91"/>
@@ -16880,6 +16776,9 @@ W = angled&lt;p&gt;
 <junction x="-15.24" y="129.54"/>
 <junction x="-33.02" y="129.54"/>
 <pinref part="J4" gate="1" pin="1"/>
+<pinref part="POWER_JACK" gate="G$1" pin="3"/>
+<wire x1="-53.34" y1="142.24" x2="-45.72" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-45.72" y="142.24"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="5"/>
