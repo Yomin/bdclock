@@ -16513,7 +16513,7 @@ Source: DCJ0202.pdf</description>
 <instance part="C3" gate="G$1" x="2.54" y="139.7"/>
 <instance part="D1" gate="1" x="-45.72" y="147.32"/>
 <instance part="LED1" gate="G$1" x="-50.8" y="45.72" rot="R270"/>
-<instance part="10PINSOCKET" gate="G$1" x="0" y="101.6"/>
+<instance part="10PINSOCKET" gate="G$1" x="0" y="101.6" rot="R180"/>
 <instance part="2PINCLAMP" gate="-1" x="-58.42" y="134.62"/>
 <instance part="2PINCLAMP" gate="-2" x="-58.42" y="129.54"/>
 <instance part="POWER_JACK" gate="G$1" x="-60.96" y="144.78"/>
@@ -16602,22 +16602,26 @@ Source: DCJ0202.pdf</description>
 <wire x1="2.54" y1="129.54" x2="-15.24" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="10PINSOCKET" gate="G$1" pin="5"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="7.62" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="10PINSOCKET" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="99.06" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="10PINSOCKET" gate="G$1" pin="3"/>
-<wire x1="7.62" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <junction x="25.4" y="96.52"/>
 <junction x="25.4" y="99.06"/>
 <pinref part="COUNTER" gate="P" pin="VSS"/>
+<wire x1="7.62" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <junction x="25.4" y="91.44"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="10"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="8"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="6"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="4"/>
+<wire x1="7.62" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="104.14" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<junction x="25.4" y="101.6"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -16682,7 +16686,6 @@ Source: DCJ0202.pdf</description>
 <junction x="17.78" y="147.32"/>
 </segment>
 <segment>
-<pinref part="10PINSOCKET" gate="G$1" pin="9"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="7.62" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="106.68" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
@@ -16696,6 +16699,7 @@ Source: DCJ0202.pdf</description>
 <junction x="17.78" y="91.44"/>
 <pinref part="COUNTER" gate="P" pin="VDD"/>
 <wire x1="30.48" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+5V"/>
@@ -16747,8 +16751,6 @@ Source: DCJ0202.pdf</description>
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <pinref part="U1" gate="G$1" pin="PB0"/>
-<pinref part="10PINSOCKET" gate="G$1" pin="10"/>
-<wire x1="-7.62" y1="106.68" x2="-12.7" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="106.68" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="93.98" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="93.98" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
@@ -16770,11 +16772,12 @@ Source: DCJ0202.pdf</description>
 <wire x1="132.08" y1="165.1" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="LATCH1" gate="1" pin="D"/>
 <wire x1="132.08" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="106.68" x2="-7.62" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LATCH0" class="0">
 <segment>
-<pinref part="10PINSOCKET" gate="G$1" pin="4"/>
 <pinref part="U1" gate="G$1" pin="PB2"/>
 <wire x1="-7.62" y1="99.06" x2="-25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
@@ -16790,11 +16793,11 @@ Source: DCJ0202.pdf</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="91.44" x2="-25.4" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-25.4" y="91.44"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="LATCH1" class="0">
 <segment>
-<pinref part="10PINSOCKET" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="PB1"/>
 <wire x1="-7.62" y1="96.52" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="96.52" x2="-33.02" y2="96.52" width="0.1524" layer="91"/>
@@ -16808,6 +16811,7 @@ Source: DCJ0202.pdf</description>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="86.36" x2="-27.94" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-27.94" y="86.36"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="CLOCK" class="0">
@@ -16875,13 +16879,13 @@ Source: DCJ0202.pdf</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="116.84" x2="-30.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="NRES/PB5"/>
-<pinref part="10PINSOCKET" gate="G$1" pin="6"/>
 <wire x1="-7.62" y1="101.6" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="101.6" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="106.68" x2="-30.48" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="106.68" x2="-33.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="116.84" x2="-30.48" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-30.48" y="106.68"/>
+<pinref part="10PINSOCKET" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$20" class="0">
